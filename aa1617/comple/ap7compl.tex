@@ -1,0 +1,76 @@
+% !TeX spellcheck = it_IT
+\documentclass[10pt]{article}
+\usepackage{amssymb,amsmath,amsfonts,xspace}
+\usepackage[italian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphics}
+\pagestyle{empty}
+\topmargin=-2.5cm
+\oddsidemargin=-0.7cm
+\textwidth=18cm
+\textheight=25cm
+\newcommand{\anac}{A.A. 2016/2017 }
+\newcommand{\data}{6 novembre  2017}
+\newcommand{\corso}{Complementi di Analisi Matematica}
+\newcommand{\cdl}{Laurea Ingegneria Informatica e Automazione}
+\newcommand{\esame}{Appello}
+\newcounter{arc}
+\newenvironment{exercise}
+{\refstepcounter{arc}\begin{list}{\bf\thearc)}{\setlength{\leftmargin=0,9cm}\setlength{\labelsep=0,5cm}}\item}
+        {\end{list}}
+\newcommand{\exe}[2]{\begin{exercise} #1\hfill\flushright#2 pts. \end{exercise}}
+\newcommand{\de}{\mathrm{d}}
+\newcommand{\C}{\ensuremath{\mathbb{C}}\xspace}
+\newcommand{\R}{\ensuremath{\mathbb{R}}\xspace}
+\newcommand{\N}{\ensuremath{\mathbb{N}}\xspace}
+\newcommand{\im}{\mathrm{i}}
+\newcommand{\Log}{\ensuremath{\mathrm{Log}}\xspace}
+\begin{document}
+\begin{center}
+\sf \large  Politecnico di Bari\\
+\normalsize  \corso \\ \cdl\\
+\anac \quad\quad \esame  \ \data \quad\quad Traccia A
+\\ \vspace{1cm}
+Cognome\hrulefill Nome\hrulefill N$^{\mathrm{o}}$ Matricola\hrulefill
+
+\medskip
+Programma:\mbox{}\hfill precedente AA 2014/2015 $\Box$
+\hfill da AA 2014/2015 in poi $\Box$\hfill
+ \vspace{0.5cm}
+\end{center}
+
+\vspace{1cm}
+
+\exe{Enunciare e dimostrare una versione del teorema sulla trasformata di Laplace della derivata}
+{5}
+
+
+\setcounter{arc}{0}
+
+\noindent {\em Per gli anni accademici precedenti al 2014/2015, si sostituisca l'esercizio 1) con il seguente:}
+
+
+
+
+
+\exe{Dimostrare che se una serie di funzioni converge totalmente su un insieme $A$ allora  converge uniformemente su $A$}{5}
+
+
+\exe{Determinare l'insieme di convergenza puntuale per la serie di potenze in \R:
+	\[\sum_{n=1}^{+\infty}\frac{n\log n}{n^2+1} (x+1)^n.\]}{7}
+
+\exe{Calcolare 
+\[\int_{C^+(3,2)}\frac{\Log_0 z}{(z-3-i)^3}\de z,\] 
+dove $C^+(3,2)$ \`e la circonferenza di centro $3$ e raggio $2$, orientata positivamente. }{6}
+
+\exe{Enunciare e dimostrare il teorema di Hermite-Liouville.}{5}
+
+\exe{Usando il metodo dei residui, calcolare 
+	\[\int_{-\infty}^{+\infty}\frac{e^{-it}}{1+t^2}\de t.\]}{6} 
+
+ 
+\exe{Calcolare la serie di soli seni della funzione 
+$f(x)=x^2$, $x\in [0,1]$. Usando tale serie stabilire che 
+\[\frac{1}{8}+4\sum_{h=0}^{+\infty} \frac{(-1)^h}{\pi^3(2h+1)^3}=\sum_{h=0}^{+\infty} \frac{(-1)^h}{\pi(2h+1)}. \]}
+{7}
+\end{document}
