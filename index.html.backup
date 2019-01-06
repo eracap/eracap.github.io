@@ -139,13 +139,25 @@ Error message and password prompt
 
 <li>$:/config/DefaultSidebarTab</li>
 
+<li>$:/config/EditToolbarButtons/Visibility/$:/core/ui/Buttons/cancel</li>
+
+<li>$:/config/EditToolbarButtons/Visibility/$:/core/ui/Buttons/delete</li>
+
+<li>$:/config/EditToolbarButtons/Visibility/$:/core/ui/Buttons/save</li>
+
 <li>$:/config/Navigation/UpdateAddressBar</li>
 
 <li>$:/config/Navigation/UpdateHistory</li>
 
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/control-panel</li>
 
-<li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-tiddler</li>
+<li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/tag-manager</li>
+
+<li>$:/config/Plugins/Disabled/$:/plugins/tiddlywiki/codemirror</li>
+
+<li>$:/config/RelinkOnRename</li>
+
+<li>$:/config/Toolbar/ButtonClass</li>
 
 <li>$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/edit</li>
 
@@ -154,12 +166,6 @@ Error message and password prompt
 <li>$:/DefaultTiddlers</li>
 
 <li>$:/Import</li>
-
-<li>$:/Import!!popup-$:/Import</li>
-
-<li>$:/Import!!popup-$:/theme</li>
-
-<li>$:/Import!!popup-$:/view</li>
 
 <li>$:/isEncrypted</li>
 
@@ -177,7 +183,13 @@ Error message and password prompt
 
 <li>$:/SiteTitle</li>
 
+<li>$:/state/showeditpreview</li>
+
 <li>$:/state/tab--1963855381</li>
+
+<li>$:/state/tab--2112689675</li>
+
+<li>$:/state/tab--959111941</li>
 
 <li>$:/state/tab-1749438307</li>
 
@@ -191,9 +203,17 @@ Error message and password prompt
 
 <li>$:/temp/info-plugin</li>
 
+<li>$:/temp/search</li>
+
 <li>$:/theme</li>
 
 <li>$:/themes/tiddlywiki/centralised</li>
+
+<li>$:/themes/tiddlywiki/readonly</li>
+
+<li>$:/themes/tiddlywiki/readsaveonly</li>
+
+<li>$:/themes/tiddlywiki/readsaveonly/styles.tid</li>
 
 <li>$:/themes/tiddlywiki/seamless</li>
 
@@ -272,19 +292,37 @@ Error message and password prompt
 <div modified="20150703213327619" title="$:/config/DefaultSidebarTab">
 <pre>$:/core/ui/SideBar/Recent</pre>
 </div>
+<div created="20190106082651482" modified="20190106085641501" title="$:/config/EditToolbarButtons/Visibility/$:/core/ui/Buttons/cancel">
+<pre>show</pre>
+</div>
+<div created="20190106083240715" modified="20190106085638559" title="$:/config/EditToolbarButtons/Visibility/$:/core/ui/Buttons/delete">
+<pre>show</pre>
+</div>
+<div modified="20140929083208621" title="$:/config/EditToolbarButtons/Visibility/$:/core/ui/Buttons/save">
+<pre>show</pre>
+</div>
 <div modified="20150220145751533" title="$:/config/Navigation/UpdateAddressBar">
 <pre>permaview</pre>
 </div>
 <div modified="20150220145610908" title="$:/config/Navigation/UpdateHistory">
 <pre>yes</pre>
 </div>
-<div created="20190106095413809" modified="20190106095413809" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/control-panel">
+<div modified="20140928194033899" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/control-panel">
+<pre>show</pre>
+</div>
+<div modified="20140928194018297" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/tag-manager">
 <pre>hide</pre>
 </div>
-<div created="20190106095410657" modified="20190106095410657" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-tiddler">
-<pre>hide</pre>
+<div modified="20140929085842845" title="$:/config/Plugins/Disabled/$:/plugins/tiddlywiki/codemirror">
+<pre>yes</pre>
 </div>
-<div created="20190106095352660" modified="20190106095352660" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/edit">
+<div created="20170925084900655" modified="20170925084900655" title="$:/config/RelinkOnRename">
+<pre>yes</pre>
+</div>
+<div created="20160228120855696" modified="20160228120914421" title="$:/config/Toolbar/ButtonClass">
+<pre>tc-btn-invisible</pre>
+</div>
+<div modified="20141127092401956" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/edit">
 <pre>hide</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="" description="TiddlyWiki5 core" list="readme" plugin-priority="0" plugin-type="plugin" title="$:/core" type="application/json" version="5.1.19">
@@ -9170,9 +9208,18 @@ CV</pre>
 <pre>The following tiddlers were imported:
 
 # [[$:/config/DefaultSidebarTab]]
+# [[$:/config/EditToolbarButtons/Visibility/$:/core/ui/Buttons/cancel]]
+# [[$:/config/EditToolbarButtons/Visibility/$:/core/ui/Buttons/save]]
 # [[$:/config/Navigation/UpdateAddressBar]]
 # [[$:/config/Navigation/UpdateHistory]]
+# [[$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/control-panel]]
+# [[$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/tag-manager]]
+# [[$:/config/Plugins/Disabled/$:/plugins/tiddlywiki/codemirror]]
+# [[$:/config/RelinkOnRename]]
+# [[$:/config/Toolbar/ButtonClass]]
+# [[$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/edit]]
 # [[$:/DefaultTiddlers]]
+# [[$:/Import]]
 # [[$:/isEncrypted]]
 # [[$:/palette]]
 # [[$:/plugins/tiddlywiki/codemirror]]
@@ -9183,6 +9230,8 @@ CV</pre>
 # [[$:/SiteTitle]]
 # [[$:/theme]]
 # [[$:/themes/tiddlywiki/centralised]]
+# [[$:/themes/tiddlywiki/readonly]]
+# [[$:/themes/tiddlywiki/readsaveonly]]
 # [[$:/themes/tiddlywiki/seamless]]
 # [[$:/themes/tiddlywiki/snowwhite]]
 # [[$:/themes/tiddlywiki/starlight]]
@@ -9215,15 +9264,6 @@ CV</pre>
 # [[research]]
 # [[Ricevimento]]
 # [[RicevimentoOnLine]]</pre>
-</div>
-<div created="20190106095016455" modified="20190106095016455" title="$:/Import!!popup-$:/Import">
-<pre>yes</pre>
-</div>
-<div created="20190106095050142" modified="20190106095113341" title="$:/Import!!popup-$:/theme">
-<pre>no</pre>
-</div>
-<div created="20190106095126925" modified="20190106095127909" title="$:/Import!!popup-$:/view">
-<pre>no</pre>
 </div>
 <div title="$:/isEncrypted">
 <pre>no</pre>
@@ -9812,22 +9852,31 @@ CV</pre>
 <div created="20140923124354315" modified="20140924093834741" title="$:/SiteTitle">
 <pre>Erasmo Caponio</pre>
 </div>
-<div created="20190106095345847" modified="20190106095609662" title="$:/state/tab--1963855381">
-<pre>$:/themes/tiddlywiki/vanilla/themetweaks</pre>
+<div created="20190106075710931" modified="20190106075710931" title="$:/state/showeditpreview">
+<pre>yes</pre>
 </div>
-<div created="20190106095338721" modified="20190106095340498" title="$:/state/tab-1749438307">
+<div created="20190106082533176" modified="20190106083200328" title="$:/state/tab--1963855381">
+<pre>$:/core/ui/ControlPanel/Toolbars</pre>
+</div>
+<div created="20190106082259234" modified="20190106082259234" title="$:/state/tab--2112689675">
+<pre>$:/core/ui/ControlPanel/Advanced</pre>
+</div>
+<div created="20190106082309777" modified="20190106082311190" title="$:/state/tab--959111941">
+<pre>$:/core/ui/ControlPanel/LoadedModules</pre>
+</div>
+<div created="20190106082315313" modified="20190106082710870" title="$:/state/tab-1749438307">
 <pre>$:/core/ui/ControlPanel/Appearance</pre>
 </div>
-<div created="20190106095532516" modified="20190106095552353" title="$:/state/tab/moresidebar-1850697562">
-<pre>$:/core/ui/MoreSideBar/All</pre>
+<div created="20190106081700268" modified="20190106083314557" title="$:/state/tab/moresidebar-1850697562">
+<pre>$:/core/ui/MoreSideBar/Shadows</pre>
 </div>
-<div created="20190106095316783" modified="20190106095726550" title="$:/state/tab/sidebar--595412856">
+<div created="20190106081537978" modified="20190106083359236" title="$:/state/tab/sidebar--595412856">
 <pre>$:/core/ui/SideBar/Recent</pre>
 </div>
-<div created="20190106095355266" modified="20190106095427688" title="$:/state/tabs/controlpanel/toolbars-1345989671">
+<div created="20190106082557759" modified="20190106083236856" title="$:/state/tabs/controlpanel/toolbars-1345989671">
 <pre>$:/core/ui/ControlPanel/Toolbars/EditToolbar</pre>
 </div>
-<div list="Address Didattica Research CV" title="$:/StoryList">
+<div created="20190106081500201" list="MaterialeDidattico" modified="20190106083048387" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -9843,7 +9892,7 @@ CV</pre>
         },
         &quot;$:/info/url/full&quot;: {
             &quot;title&quot;: &quot;$:/info/url/full&quot;,
-            &quot;text&quot;: &quot;file:///home/erasmo/eracap.github.io/upgrade.html&quot;
+            &quot;text&quot;: &quot;file:///home/erasmo/eracap.github.io/index.html&quot;
         },
         &quot;$:/info/url/host&quot;: {
             &quot;title&quot;: &quot;$:/info/url/host&quot;,
@@ -9863,7 +9912,7 @@ CV</pre>
         },
         &quot;$:/info/url/pathname&quot;: {
             &quot;title&quot;: &quot;$:/info/url/pathname&quot;,
-            &quot;text&quot;: &quot;/home/erasmo/eracap.github.io/upgrade.html&quot;
+            &quot;text&quot;: &quot;/home/erasmo/eracap.github.io/index.html&quot;
         },
         &quot;$:/info/url/search&quot;: {
             &quot;title&quot;: &quot;$:/info/url/search&quot;,
@@ -9884,6 +9933,9 @@ CV</pre>
     }
 }</pre>
 </div>
+<div created="20190106083328483" modified="20190106083351702" title="$:/temp/search">
+<pre></pre>
+</div>
 <div created="20160131125856837" modified="20190106083151224" title="$:/theme">
 <pre>$:/themes/tiddlywiki/snowwhite</pre>
 </div>
@@ -9897,6 +9949,36 @@ CV</pre>
         }
     }
 }</pre>
+</div>
+<div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/snowwhite" description="Hides the ability to edit tiddlers" name="ReadOnly" plugin-type="theme" title="$:/themes/tiddlywiki/readonly" type="application/json" version="5.1.19">
+<pre>{
+    &quot;tiddlers&quot;: {
+        &quot;$:/themes/tiddlywiki/readonly/styles.tid&quot;: {
+            &quot;title&quot;: &quot;$:/themes/tiddlywiki/readonly/styles.tid&quot;,
+            &quot;tags&quot;: &quot;[[$:/tags/Stylesheet]]&quot;,
+            &quot;text&quot;: &quot;\\define button-selector(title)\nbutton.$title$, .tc-drop-down button.$title$, div.$title$\n\\end\n\n\\rules only filteredtranscludeinline transcludeinline macrodef macrocallinline\n\n&lt;&lt;button-selector tc-btn-\\%24\\%3A\\%2Fcore\\%2Fui\\%2FButtons\\%2Fclone&gt;&gt;,\n&lt;&lt;button-selector tc-btn-\\%24\\%3A\\%2Fcore\\%2Fui\\%2FButtons\\%2Fdelete&gt;&gt;,\n&lt;&lt;button-selector tc-btn-\\%24\\%3A\\%2Fcore\\%2Fui\\%2FButtons\\%2Fedit&gt;&gt;,\n&lt;&lt;button-selector tc-btn-\\%24\\%3A\\%2Fcore\\%2Fui\\%2FButtons\\%2Fnew-here&gt;&gt;,\n&lt;&lt;button-selector tc-btn-\\%24\\%3A\\%2Fcore\\%2Fui\\%2FButtons\\%2Fnew-journal-here&gt;&gt;,\n&lt;&lt;button-selector tc-btn-\\%24\\%3A\\%2Fcore\\%2Fui\\%2FButtons\\%2Fimport&gt;&gt;,\n&lt;&lt;button-selector tc-btn-\\%24\\%3A\\%2Fcore\\%2Fui\\%2FButtons\\%2Fmanager&gt;&gt;,\n&lt;&lt;button-selector tc-btn-\\%24\\%3A\\%2Fcore\\%2Fui\\%2FButtons\\%2Fnew-image&gt;&gt;,\n&lt;&lt;button-selector tc-btn-\\%24\\%3A\\%2Fcore\\%2Fui\\%2FButtons\\%2Fnew-journal&gt;&gt;,\n&lt;&lt;button-selector tc-btn-\\%24\\%3A\\%2Fcore\\%2Fui\\%2FButtons\\%2Fnew-tiddler&gt;&gt; {\n\tdisplay: none;\n}&quot;
+        }
+    }
+}</pre>
+</div>
+<div author="JeremyRuston, Erasmo Caponio" core-version="&gt;=5.0.0" created="20140928211950054" dependents="$:/themes/tiddlywiki/snowwhite" description="Theme for removing editing features" modified="20140929083339272" name="ReadSaveOnly" plugin-type="theme" title="$:/themes/tiddlywiki/readsaveonly" type="application/json" version="5.1.2">
+<pre>{
+    &quot;tiddlers&quot;: {
+        &quot;$:/themes/tiddlywiki/readsaveonly/styles.tid&quot;: {
+            &quot;title&quot;: &quot;$:/themes/tiddlywiki/readsaveonly/styles.tid&quot;,
+            &quot;tags&quot;: &quot;[[$:/tags/Stylesheet]]&quot;,
+            &quot;text&quot;: &quot;\\rules only filteredtranscludeinline transcludeinline macrodef macrocallinline\n\nsvg.tc-image-new-button, svg.tc-image-options-button,  svg.tc-image-edit-button, svg.tc-image-delete-button, svg.tc-image-cancel-button  {\n\tdisplay: none;\t\n}\n&quot;
+        }
+    }
+}</pre>
+</div>
+<div created="20190106083033712" modified="20190106083033712" tags="$:/tags/Stylesheet" title="$:/themes/tiddlywiki/readsaveonly/styles.tid">
+<pre>\rules only filteredtranscludeinline transcludeinline macrodef macrocallinline
+
+svg.tc-image-new-button, svg.tc-image-options-button,  svg.tc-image-edit-button, svg.tc-image-delete-button, svg.tc-image-cancel-button  {
+	display: none;	
+}
+</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/vanilla" description="Removes borders from tiddlers" name="Seamless" plugin-type="theme" title="$:/themes/tiddlywiki/seamless" type="application/json" version="5.1.19">
 <pre>{
@@ -10209,7 +10291,7 @@ RicevimentoOnLine</pre>
 <div icon="$:/core/images/info-button" modified="20140923133952324" title="info">
 <pre></pre>
 </div>
-<div created="20140924125609388" list="" modified="20190106085705261" tags="AA2002--2018 AA2017-2018 didattica" title="MaterialeDidattico">
+<div created="20140924125609388" list="" modified="20190106095519286" tags="AA2002--2018 AA2017-2018 didattica" title="MaterialeDidattico">
 <pre>&lt;br&gt;
 
 !!!{{Archivio}}
